@@ -1,0 +1,126 @@
+REACT :
+
+React is a  javascript library for building user interfaces, primarily maintained by meta(formerly facebook)
+and a community of developers. It allows developers to build dynamic, responsive web applications efficiency.
+
+Why React was Created ?
+
+. React was created in 2011 by Jordan Walke, a software engineer at Facebook. The primaty goal was to address
+ issues with performance and complexity in Facebook's web applications.
+
+. Problem Facebook Faced : The increasing complexity of Facebook's UI led to performance
+ issues with traditional javascript and jQuery solutions.
+
+. Solution: React introduced a novel approach called the Virtual DOM, which improved performance and
+ allowed developers to think of their UI's as a tree of reusable components. 
+
+. React was open-sourced in 2013 and has since become one of the most popular libraries for frontend development.
+
+
+CORE Concepts of React :
+
+1. Component-based Architecture: 
+. React apps are built using components: small, reusable pieces of UI.
+. Components can be functional or class-based.
+
+2. Declarative programming :
+. Instead of manually manipulating the DOM, developers define what the UI shouls look like, and react takes care 
+of updating the DOM.
+
+3. Virtual DOM: 
+. React uses a lightweight, in-memory representation of the DOM(virtual DOM)
+. When the state of component changes, react compares the virtual DOM with the real DOM and updates only the 
+necessary parts.
+
+4. JSX(Javascript XML):
+. React uses a syntax extension called JSX, which allows HTML-like code to coexit with javascript logic.
+
+5. Unidirectional Data flow: 
+. React's data flow is one-way, making it easier to understand and debug applications.
+
+6. State and Props:
+. State: Represents the dynamic data of a component.
+. Props: Allow Components to communicate with each other by passing data.
+
+
+
+Why react is so popular?
+. performance
+. flexibility : used for building single page applcations (SPA), mobile apps, and even static sites.
+. rich ecosystem
+. community and support
+. reusability
+. backed bt meta
+. cross-platform development
+. SEO-friendly
+
+
+ADVANTAGES: 
+. learning curve: React is relatively easy to learn for developers familiar with javascript.
+. rich tooling: developers tool like react devTools simplify debugging.
+. scalability: suitable for both small and large-scale applcations.
+. backward compatibility: updates rarely break backward compatibility, making upgrades smoohter. 
+
+
+REACT VS Other frameworks: 
+
+feature               React                  angular                      Vue.js
+
+type                  library                framework                    framework
+learning curve        moderate               steep                          easy
+DOM management        virtual DOM            real DOM                    virtual DOM
+data binding          one-way                two-way                       one-way
+ecosystem             huge                    large                       moderate
+use cases             flexible             enterprise apps            small-to-medium apps
+
+
+tasks: 
+
+1. differences btwn library and framework
+2. react versions and why react
+3. react vs next.js
+
+
+
+                  Framework                                                 Library    
+1. It comprises of lot of APIs, compilers,                  It is a collection of helper modules , classes ,                                                          objects , functions , pre-written code , etc.
+   support programs, libraries etc.                           objects , functions , pre-written code , etc.
+
+2. It is difficult to replace frameworks.	             A library is easy to be replaced with another library.   
+
+3. A framework development requires a lot of              Building a library requires less code , so
+ code that decrease performance and increase               there is better performance and fast load time.
+  the load time. 
+  
+ 4. Including framework smoothly into an existing             Libraries can be integrated easily into existing projects
+          project is impossible.                                      to add some specific functionality.
+
+5. Its example are AngularJS , Spring , NodeJS , etc.                Its example are JQuery , React JS , etc.           
+
+
+
+
+
+2.  react version is   19.0.0
+
+React. js powers the digital platforms of Fortune 500 giants like Netflix, Facebook, Instagram,
+ and Uber, showcasing its unmatched reliability and performance. This highly versatile library helps 
+ businesses to create dynamic, interactive, and scalable web applications with ease.
+
+
+3. NEXT.JS vs React :
+
+next is a react framework built as an open-source on top of React library. 
+It is created by vercel. Next framework creates fast search engine optimize
+react applications with zero configuration. A traditional react application is 
+rendered client-side where the browser starts with a shell of an HTML page lacking any
+rendered content from which the browser extracts the JS file which consists of React files 
+to display the content to the webpage. Next helps you create production-ready apps and provides
+you the best experience with its features like server-side rendering, route pre-fetching, smart bundling, etc.
+
+Features:
+Hot Code Reloading
+Automatic Code Splitting
+Ecosystem Compatibility 
+Server Rendering
+Automatic Routing 
